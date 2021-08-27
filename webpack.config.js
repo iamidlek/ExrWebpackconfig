@@ -27,7 +27,7 @@ module.exports = {
       {
         test: /\.s?css$/,
         use: [
-          'vue-style-loader',
+          // 'vue-style-loader',
           'style-loader', // 해석된 부분을 삽입해서 사용
           'css-loader',// 먼저 로드됨 js에서 css를 해석하는 용도
           'postcss-loader',
