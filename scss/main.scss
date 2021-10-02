@@ -1,0 +1,14 @@
+$c-black: #000;
+$c-white: #FFF;
+
+body {
+  background-color: $c-black;
+  h1 {
+    color: $c-white;
+    font-size: 36px;
+    display: flex;
+    // 공급업체 접두사 prefix vender
+    // npm i -D postcss autoprefixer postcss-loader
+    // postcss의 후처리로 auto, webpack 동작하게 로더 설치
+  }
+}
